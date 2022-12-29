@@ -1,0 +1,90 @@
+package day11_Switch_Scanner;
+
+public class Grade {
+    public static void main(String[] args) {
+
+
+        /*
+        90 100 =excellent
+        80 89 = great
+        70 79 = good
+        60 69 = passed
+        0 59 = failed
+
+
+        int score = 75;
+
+        if (score >= 0 && score <= 100) { // if the score is valid
+            //5 possibilities
+
+            if (score >= 90) {//false: score < 90
+                System.out.println("Excellent");
+            } else if (score >= 80) {//false: score < 80
+                System.out.println("Great");
+            } else if (score >= 70) {//false: score < 70
+                System.out.println("Good");
+            } else if (score >= 60) {
+                System.out.println("Passed");
+            } else {
+                System.out.println("Failed");
+            }
+        } else {// if score is not valid
+            System.out.println("Invalid Score");
+        }
+
+
+        System.out.println("====================================");
+
+
+        String result = ""; // temporary
+
+        if (score >= 0 && score <= 100) { // if the score is valid
+            //5 possibilities
+
+            if (score >= 90) {//false: score < 90
+                result = "Excellent";
+            } else if (score >= 80) {//false: score < 80
+                result = "Great";
+            } else if (score >= 70) {//false: score < 70
+                result = "Good";
+            } else if (score >= 60) {
+                result = "Passed";
+            } else {
+                result = "Failed";
+            }
+        } else {// if score is not valid
+            result = "Invalid Score";
+        }
+
+        System.out.println(result);
+ */
+
+        char ch = 'B';
+        String result = "";
+
+        switch (ch) {
+            case 'A':
+                result = ("Excellent");
+                break;
+            case 'B':
+                result = ("Great Job");
+                break;
+            case 'C':
+                result = ("Good");
+                break;
+            case 'D':
+                result = ("Passed");
+                break;
+            case 'F':
+                result = ("Failed");
+                break;
+            default:
+                result = ("Invalid");
+        }
+
+        System.out.println("result = " + result);
+
+    }
+
+
+}
