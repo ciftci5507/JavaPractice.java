@@ -23,7 +23,7 @@ public class PositiveOrNegative_Task {
 
         System.out.println(positive + " positive and " + negative + " negative");
 
-
+        scanner.close();
     }
 }
 /*
