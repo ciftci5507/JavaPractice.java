@@ -2,7 +2,7 @@ package day12_Scanner;
 
 import java.util.Scanner;
 
-public class MilesToKM {
+public class MilesToKM_Task {
 
     public static void main(String[] args) {
 
@@ -15,6 +15,10 @@ public class MilesToKM {
         double kM = miles * 1.609;
 
         System.out.println(miles + " miles equal to " + kM + " kilometers.");
+
+        scanner.close();
+
+
     }
 }
 
