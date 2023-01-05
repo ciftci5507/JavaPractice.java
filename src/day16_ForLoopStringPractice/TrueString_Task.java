@@ -15,7 +15,7 @@ public class TrueString_Task {
        String cat = catAndDogs.;
 
         System.out.println(cat);
-        
+
  */
     }
 }
